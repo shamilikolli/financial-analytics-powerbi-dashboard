@@ -51,11 +51,15 @@ RETURN
 DIVIDE(_YoY, [Previous Year Transactions], 0)
 ```
 
-## What I found
+## Insights found
 
-- Could see which customer segments (retail, wealth, corporate, premium) were driving most of the transaction volume
-- Pulled out the failed transactions separately so they could be reviewed
-- Compared fees collected across channels (net banking, mobile, ATM, branch) to see which ones were more profitable
+- Total transaction value for 2025 was ₹137.53M across 14.94K transactions, up 1.41% from the previous year even though the number of transactions actually dropped slightly (-0.57%). Average transaction value went up 1.98%, so people are transacting less often but for bigger amounts.
+- Most of the money (85.37% / ₹117.4M) is tied to successful transactions, but ₹14.4M (10.44%) is sitting in failed transactions and ₹5.8M (4.19%) in pending - that's about 14.6% of total transaction value not going through cleanly, which is worth digging into.
+- Retail customers dominate - they account for ₹76M of the total amount, more than all other segments combined (Premium ₹26M, SME ₹21M, Corporate ₹9M, Wealth ₹6M).
+- Maharashtra leads by state (₹22M), followed by Karnataka (₹16M) and Gujarat (₹15M). The top 3 states alone make up close to 40% of the total amount.
+- Deposits are the biggest transaction type by value (₹20.3M) and also generate the most in fees (₹34.5K) and tax (₹6.2K). Card Payments and Investments follow behind.
+- Split between genders is fairly close - Female customers account for 52.77% (₹72.6M) of total amount vs Male at 47.23% (₹65.0M).
+- Looking at the month-wise trend, transaction amounts dipped noticeably in February and September, and peaked around July - could be seasonal, worth checking against real calendar events if this were a live business dataset.
 
 ## How to open this
 
